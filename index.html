@@ -17,48 +17,42 @@
 </head>
 <body class="m-2 p-0">
    <!-- NAVBAR PANEL -->
-        <navbar class="container-fluid w-100 m-0 p-0">
-            <div class="row d-flex border-bottom"> 
-                <div class="col col-sm d-flex justify-content-start align-items-center m-2">
-                    <img src="img/reddint.png" class="ms-2" style="max-width: 15%;min-width: 15%" alt="">
-                    <div class="d-inline-block ms-3 mt-3">
-                        <p class="p-0 fs-4 " style="font-family:'Reddit Sans', sans-serif; font-weight: 700;">reddit</p>
-                    </div>
-                </div>
+   <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container-fluid ">  
+        <img src="img/reddint.png" width="50" height="50" alt="" class="me-2" >
+      <a class="navbar-brand" href="#">Reddit</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
 
-                <div class=" col col-sm d-flex justify-content-center align-items-center mt-2"  id="mid">
-                    <p class=" p-3" id="navbar">Home</p>
-                    <p class=" p-3" id="navbar">Popular</p>
-                    <p class=" p-3" id="navbar">All</p>
-                    <p class=" p-3" id="navbar">Random</p>
-                    <p class=" p-3" id="navbar">User</p>
-                    <p class=" p-3" id="navbar">More</p>
-                </div>
-                
-                <div class="col col-sm d-flex justify-content-end align-items-center me-3" >
-                    <div class="search-icon d-inline-block me-2" style="cursor:pointer">
-                        <i class="fa-solid fa-magnifying-glass fs-4"></i>
-                    </div>
-                    <div class="notification-icon d-inline-block me-2" style="cursor:pointer">
-                        <i class="fa-solid fa-bell fs-4"></i>
-                    </div>
-                   <div class="d-inline-block me-2  border border-dark rounded-circle" style="cursor:pointer">
-                       <i class="fa-solid fa-user fs-1 ms-2" style="width:45px;height: 50px;"></i>
-                   </div>
-                   <div class="d-inline-block mt-2">
-                    <p class="d-inline-block mb-0">Name</p>
-                    <div>
-                        <p class="d-inline-block">Email address</p>
-                    </div>
-                    
-                   </div>
-                </div>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#" id="navbar">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#" id="navbar">Popular</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#" id="navbar">All</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="#" id="navbar">Random</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#" id="navbar">User</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#" id="navbar">More</a>
+          </li>
+        </ul>
+        <form class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" style="border-radius: 20px;">
+          <button class="btn btn-outline-primary" type="submit">Login</button>
+        </form>
+       
 
-            </div>
-           
-
-           
-        </navbar>
+  </nav>
         
 
 
