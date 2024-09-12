@@ -1,0 +1,33 @@
+body,html{
+    font: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#navbar{
+    cursor:pointer; 
+    text-decoration: none;
+    display: inline-block;
+    padding: 15px 20px;
+    position: relative;
+ 
+}
+#navbar::after{
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 2px;
+    left: 50%;
+    position: absolute;
+    background: black;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+}
+#navbar:hover::after{
+    width: 100%; 
+    left: 0; 
+}
+
+@media screen and (max-height: 300px) {
+	#mid     {
+		margin-top: 40px;
+	}
+}
